@@ -6,6 +6,8 @@ struct Seller: Codable {
     let profileImage: String
 }
 
+// MARK: - Fake data
+
 extension Seller {
     static func fakeData() -> [Seller] {
         let s1 = Seller(name: "Moodszn",

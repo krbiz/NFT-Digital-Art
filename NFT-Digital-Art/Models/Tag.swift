@@ -5,6 +5,8 @@ struct Tag: Identifiable, Codable {
     let text: String
 }
 
+// MARK: - Fake data
+
 extension Tag {
     static func generate() -> [Tag] {
         let t1 = Tag(text: "Trending")

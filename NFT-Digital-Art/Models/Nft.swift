@@ -68,6 +68,8 @@ struct Attribute {
     }
 }
 
+// MARK: - Codable
+
 extension Attribute: Codable {
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
