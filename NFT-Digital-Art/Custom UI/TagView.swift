@@ -26,9 +26,3 @@ struct TagView: View {
         isSelected ? .custom(.purple) : .white.opacity(0.4)
     }
 }
-
-struct TagView_Previews: PreviewProvider {
-    static var previews: some View {
-        TagView(text: "Trending", isSelected: .constant(true)) { _ in }
-    }
-}
