@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32430BCF2818363A0012E483 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32430BCE2818363A0012E483 /* Launch Screen.storyboard */; };
+		32472860281833C700D8A2B0 /* NFTDigitalArtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247285F281833C700D8A2B0 /* NFTDigitalArtApp.swift */; };
+		32472864281833CB00D8A2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32472863281833CB00D8A2B0 /* Assets.xcassets */; };
+		32472867281833CB00D8A2B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32472866281833CB00D8A2B0 /* Preview Assets.xcassets */; };
+		32668741281BE67A0047F8C8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32668740281BE67A0047F8C8 /* OnboardingView.swift */; };
+		3266874A281BEB500047F8C8 /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32668744281BEB500047F8C8 /* Oswald-Medium.ttf */; };
+		3266874B281BEB500047F8C8 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32668745281BEB500047F8C8 /* Oswald-Regular.ttf */; };
+		3266874C281BEB500047F8C8 /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32668746281BEB500047F8C8 /* Oswald-SemiBold.ttf */; };
+		3266874D281BEB500047F8C8 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32668747281BEB500047F8C8 /* Oswald-Bold.ttf */; };
+		3266874E281BEB500047F8C8 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32668748281BEB500047F8C8 /* Oswald-Light.ttf */; };
+		3266874F281BEB500047F8C8 /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32668749281BEB500047F8C8 /* Oswald-ExtraLight.ttf */; };
+		32668752281BEC3D0047F8C8 /* Font+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32668751281BEC3D0047F8C8 /* Font+extension.swift */; };
+		32668754281BEEF50047F8C8 /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32668753281BEEF50047F8C8 /* Color+extension.swift */; };
+		32668757281BF12D0047F8C8 /* ScalableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32668756281BF12D0047F8C8 /* ScalableButtonStyle.swift */; };
+		32668759281BF3700047F8C8 /* Binary+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32668758281BF3700047F8C8 /* Binary+extension.swift */; };
+		3266875B281BF6C70047F8C8 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266875A281BF6C70047F8C8 /* DashboardView.swift */; };
+		3266875D281BFCBB0047F8C8 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266875C281BFCBB0047F8C8 /* TagView.swift */; };
+		32668760281C0F290047F8C8 /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266875F281C0F290047F8C8 /* Seller.swift */; };
+		32668762281C17D40047F8C8 /* Nft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32668761281C17D40047F8C8 /* Nft.swift */; };
+		32668765281C18370047F8C8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 32668764281C18370047F8C8 /* Alamofire */; };
+		32668768281C184C0047F8C8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 32668767281C184C0047F8C8 /* Kingfisher */; };
+		326D8B30281C27D000F2A10E /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D8B2F281C27D000F2A10E /* Tag.swift */; };
+		326D8B33281C2C2600F2A10E /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 326D8B32281C2C2600F2A10E /* Introspect */; };
+		32B7A5F6281C3FB30033C385 /* Set+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7A5F5281C3FB30033C385 /* Set+extension.swift */; };
+		32B7A5F8281C49280033C385 /* FilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7A5F7281C49280033C385 /* FilteredView.swift */; };
+		32B7A5FA281C5BA20033C385 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7A5F9281C5BA20033C385 /* DetailsView.swift */; };
+		32B7A5FE281C61F90033C385 /* SelectableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7A5FD281C61F90033C385 /* SelectableButtonStyle.swift */; };
+		32B7A64C281C7B7F0033C385 /* UINavigationController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7A64B281C7B7F0033C385 /* UINavigationController+extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32430BCE2818363A0012E483 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		32430BD02818373F0012E483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3247285C281833C700D8A2B0 /* NFT-Digital-Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFT-Digital-Art.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3247285F281833C700D8A2B0 /* NFTDigitalArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTDigitalArtApp.swift; sourceTree = "<group>"; };
+		32472863281833CB00D8A2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32472866281833CB00D8A2B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32668740281BE67A0047F8C8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		32668744281BEB500047F8C8 /* Oswald-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Medium.ttf"; sourceTree = "<group>"; };
+		32668745281BEB500047F8C8 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		32668746281BEB500047F8C8 /* Oswald-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-SemiBold.ttf"; sourceTree = "<group>"; };
+		32668747281BEB500047F8C8 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		32668748281BEB500047F8C8 /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		32668749281BEB500047F8C8 /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
+		32668751281BEC3D0047F8C8 /* Font+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+extension.swift"; sourceTree = "<group>"; };
+		32668753281BEEF50047F8C8 /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
+		32668756281BF12D0047F8C8 /* ScalableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalableButtonStyle.swift; sourceTree = "<group>"; };
+		32668758281BF3700047F8C8 /* Binary+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary+extension.swift"; sourceTree = "<group>"; };
+		3266875A281BF6C70047F8C8 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		3266875C281BFCBB0047F8C8 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		3266875F281C0F290047F8C8 /* Seller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seller.swift; sourceTree = "<group>"; };
+		32668761281C17D40047F8C8 /* Nft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nft.swift; sourceTree = "<group>"; };
+		326D8B2F281C27D000F2A10E /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		32B7A5F5281C3FB30033C385 /* Set+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Set+extension.swift"; sourceTree = "<group>"; };
+		32B7A5F7281C49280033C385 /* FilteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredView.swift; sourceTree = "<group>"; };
+		32B7A5F9281C5BA20033C385 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		32B7A5FD281C61F90033C385 /* SelectableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButtonStyle.swift; sourceTree = "<group>"; };
+		32B7A64B281C7B7F0033C385 /* UINavigationController+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32472859281833C700D8A2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32668768281C184C0047F8C8 /* Kingfisher in Frameworks */,
+				326D8B33281C2C2600F2A10E /* Introspect in Frameworks */,
+				32668765281C18370047F8C8 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32472853281833C700D8A2B0 = {
+			isa = PBXGroup;
+			children = (
+				3247285E281833C700D8A2B0 /* NFT-Digital-Art */,
+				3247285D281833C700D8A2B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3247285D281833C700D8A2B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3247285C281833C700D8A2B0 /* NFT-Digital-Art.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3247285E281833C700D8A2B0 /* NFT-Digital-Art */ = {
+			isa = PBXGroup;
+			children = (
+				3247285F281833C700D8A2B0 /* NFTDigitalArtApp.swift */,
+				32668750281BEC1C0047F8C8 /* Extensions */,
+				32668755281BF1060047F8C8 /* Custom UI */,
+				3266875E281C0F1A0047F8C8 /* Models */,
+				3266873F281BE66C0047F8C8 /* Views */,
+				32668742281BEB0E0047F8C8 /* Resources */,
+				32430BD02818373F0012E483 /* Info.plist */,
+				32472863281833CB00D8A2B0 /* Assets.xcassets */,
+				32430BCE2818363A0012E483 /* Launch Screen.storyboard */,
+				32472865281833CB00D8A2B0 /* Preview Content */,
+			);
+			path = "NFT-Digital-Art";
+			sourceTree = "<group>";
+		};
+		32472865281833CB00D8A2B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32472866281833CB00D8A2B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3266873F281BE66C0047F8C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32668740281BE67A0047F8C8 /* OnboardingView.swift */,
+				3266875A281BF6C70047F8C8 /* DashboardView.swift */,
+				32B7A5F7281C49280033C385 /* FilteredView.swift */,
+				32B7A5F9281C5BA20033C385 /* DetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32668742281BEB0E0047F8C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32668743281BEB3F0047F8C8 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		32668743281BEB3F0047F8C8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				32668747281BEB500047F8C8 /* Oswald-Bold.ttf */,
+				32668749281BEB500047F8C8 /* Oswald-ExtraLight.ttf */,
+				32668748281BEB500047F8C8 /* Oswald-Light.ttf */,
+				32668744281BEB500047F8C8 /* Oswald-Medium.ttf */,
+				32668745281BEB500047F8C8 /* Oswald-Regular.ttf */,
+				32668746281BEB500047F8C8 /* Oswald-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		32668750281BEC1C0047F8C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				32668751281BEC3D0047F8C8 /* Font+extension.swift */,
+				32668753281BEEF50047F8C8 /* Color+extension.swift */,
+				32668758281BF3700047F8C8 /* Binary+extension.swift */,
+				32B7A5F5281C3FB30033C385 /* Set+extension.swift */,
+				32B7A64B281C7B7F0033C385 /* UINavigationController+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		32668755281BF1060047F8C8 /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				32668756281BF12D0047F8C8 /* ScalableButtonStyle.swift */,
+				32B7A5FD281C61F90033C385 /* SelectableButtonStyle.swift */,
+				3266875C281BFCBB0047F8C8 /* TagView.swift */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
+		3266875E281C0F1A0047F8C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32668761281C17D40047F8C8 /* Nft.swift */,
+				326D8B2F281C27D000F2A10E /* Tag.swift */,
+				3266875F281C0F290047F8C8 /* Seller.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3247285B281833C700D8A2B0 /* NFT-Digital-Art */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3247286A281833CB00D8A2B0 /* Build configuration list for PBXNativeTarget "NFT-Digital-Art" */;
+			buildPhases = (
+				32472858281833C700D8A2B0 /* Sources */,
+				32472859281833C700D8A2B0 /* Frameworks */,
+				3247285A281833C700D8A2B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NFT-Digital-Art";
+			packageProductDependencies = (
+				32668764281C18370047F8C8 /* Alamofire */,
+				32668767281C184C0047F8C8 /* Kingfisher */,
+				326D8B32281C2C2600F2A10E /* Introspect */,
+			);
+			productName = "App3-NFT";
+			productReference = 3247285C281833C700D8A2B0 /* NFT-Digital-Art.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32472854281833C700D8A2B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3247285B281833C700D8A2B0 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 32472857281833C700D8A2B0 /* Build configuration list for PBXProject "NFT-Digital-Art" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32472853281833C700D8A2B0;
+			packageReferences = (
+				32668763281C18370047F8C8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				32668766281C184C0047F8C8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				326D8B31281C2C2600F2A10E /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
+			productRefGroup = 3247285D281833C700D8A2B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3247285B281833C700D8A2B0 /* NFT-Digital-Art */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3247285A281833C700D8A2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3266874B281BEB500047F8C8 /* Oswald-Regular.ttf in Resources */,
+				3266874C281BEB500047F8C8 /* Oswald-SemiBold.ttf in Resources */,
+				32430BCF2818363A0012E483 /* Launch Screen.storyboard in Resources */,
+				3266874E281BEB500047F8C8 /* Oswald-Light.ttf in Resources */,
+				3266874A281BEB500047F8C8 /* Oswald-Medium.ttf in Resources */,
+				32472867281833CB00D8A2B0 /* Preview Assets.xcassets in Resources */,
+				3266874D281BEB500047F8C8 /* Oswald-Bold.ttf in Resources */,
+				32472864281833CB00D8A2B0 /* Assets.xcassets in Resources */,
+				3266874F281BEB500047F8C8 /* Oswald-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32472858281833C700D8A2B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B7A5F6281C3FB30033C385 /* Set+extension.swift in Sources */,
+				32B7A5F8281C49280033C385 /* FilteredView.swift in Sources */,
+				326D8B30281C27D000F2A10E /* Tag.swift in Sources */,
+				32668757281BF12D0047F8C8 /* ScalableButtonStyle.swift in Sources */,
+				3266875B281BF6C70047F8C8 /* DashboardView.swift in Sources */,
+				32668741281BE67A0047F8C8 /* OnboardingView.swift in Sources */,
+				32668762281C17D40047F8C8 /* Nft.swift in Sources */,
+				32B7A5FE281C61F90033C385 /* SelectableButtonStyle.swift in Sources */,
+				32668759281BF3700047F8C8 /* Binary+extension.swift in Sources */,
+				32668754281BEEF50047F8C8 /* Color+extension.swift in Sources */,
+				32668760281C0F290047F8C8 /* Seller.swift in Sources */,
+				32B7A5FA281C5BA20033C385 /* DetailsView.swift in Sources */,
+				32668752281BEC3D0047F8C8 /* Font+extension.swift in Sources */,
+				32472860281833C700D8A2B0 /* NFTDigitalArtApp.swift in Sources */,
+				32B7A64C281C7B7F0033C385 /* UINavigationController+extension.swift in Sources */,
+				3266875D281BFCBB0047F8C8 /* TagView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32472868281833CB00D8A2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32472869281833CB00D8A2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3247286B281833CB00D8A2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NFT-Digital-Art/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RCT4GHCWV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NFT-Digital-Art/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NFT Digital Art";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krbiz.nft-digital-art";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3247286C281833CB00D8A2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NFT-Digital-Art/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RCT4GHCWV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NFT-Digital-Art/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NFT Digital Art";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krbiz.nft-digital-art";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32472857281833C700D8A2B0 /* Build configuration list for PBXProject "NFT-Digital-Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32472868281833CB00D8A2B0 /* Debug */,
+				32472869281833CB00D8A2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3247286A281833CB00D8A2B0 /* Build configuration list for PBXNativeTarget "NFT-Digital-Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3247286B281833CB00D8A2B0 /* Debug */,
+				3247286C281833CB00D8A2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		32668763281C18370047F8C8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		32668766281C184C0047F8C8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		326D8B31281C2C2600F2A10E /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		32668764281C18370047F8C8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32668763281C18370047F8C8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		32668767281C184C0047F8C8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32668766281C184C0047F8C8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		326D8B32281C2C2600F2A10E /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 326D8B31281C2C2600F2A10E /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 32472854281833C700D8A2B0 /* Project object */;
+}
